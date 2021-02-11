@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Site title-->
+    <title>Page 1</title>
+    <!--Main css file-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--JS file-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
+    </style>
+</head>
+
+<body>
+    <!--Nav bar start-->
+    <header>
+        <nav id="navbar">
+            <h1 class="logo"><a href=".html">Logo</a> </h1>
+        </nav>
+    </header>
+    <!--Nav bar end-->
+
+    <div class="head1 miz">
+        <h1>Inscripción al curso</h1>
+    </div>
+
+    <section>
+        <div class="container">
+            <div id="box1">
+                <img src="img/course_description.png" alt="">
+            </div>
+            <div id="box2">
+                <span style="font-size: 30px; margin-bottom: -5px;"><b>Título del curso</b></span>
+                <div class="row">
+                    <div class="column">
+                        <h3>Categoría</h3>
+                        <p class="image-text">Nombre categoría</p>
+                    </div>
+                    <div class="column">
+                        <h3>Modalidad</h3>
+                        <p class="image-text"> Tipo modalidad</p>
+                    </div>
+                    <div class="column">
+                        <h3>Contenido</h3>
+                        <p class="image-text">Número de pantallas</p>
+                    </div>
+                    <div class="column">
+                        <h3>Duración estimada</h3>
+                        <p class="image-text">300 minutos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="clr"></div>
+
+    <section>
+        <div class="contain">
+            <h1>Datos del comprador</h1>
+            <form action="">
+                <div class="lf">
+                    <label for="f-name"><b>Nombre / Razón social</b></label><br>
+                    <input class="input green" type="text" name="f-name" id="f-name">
+                </div>
+                <div class="rg">
+                    <label for="f-name"><b>DNI / CIF</b></label><br>
+                    <input class="ainput green" type="text" name="f-name" id="f-name">
+                </div>
+
+                <div class="clr"></div>
+                <div class="lf">
+                    <label for="f-name"><b>Domicilio </b></label><br>
+                    <input class="input green" type="text" name="f-name" id="f-name">
+                </div>
+                <div class="rg">
+                    <label for="f-name"><b>Código Postal</b></label><br>
+                    <input class="ainput green" type="text" name="f-name" id="f-name">
+                </div>
+
+                <div class="rg  poblac">
+                    <label for="f-name"><b>Población</b></label><br>
+                    <input class="ainput green" type="text" name="f-name" id="f-name">
+                </div>
+
+                <div class="rg poblac">
+                    <label for="f-name"><b>Provincia</b></label><br>
+                    <input class="ainput green" type="text" name="f-name" id="f-name">
+                </div>
+                <div class="clr"></div>
+                <br>
+                <hr>
+                <div class="boxing1">
+                    <div class="row2">
+                        <label for="f-name"><b>Nombre Persona de contacto </b></label><br>
+                        <input class="input green" type="number"  name="f-name" id="f-name">
+                    </div>
+                    <div class="row2">
+                        <label for="f-name"><b>Teléfono</b></label><br>
+                        <input class="ainput green" type="text" name="f-name" id="f-name">
+                    </div>
+                    <div style="margin-top: 40px;" class="row2">
+                        <label for="f-name"><b>Correo electrónico</b></label><br>
+                        <input class="input green" type="text" name="f-name" id="f-name">
+                    </div>
+                </div>
+                <div class="boxing2">
+                    <div style="margin-top: 40px;" class="row2">
+                        <label for="f-name"><b>Apellidos</b></label><br>
+                        <input class="input green" type="text" name="f-name" id="f-name">
+                    </div>
+                    <div class="row2 ">
+                        <label for="f-name"><b>Móvil (opcional)</b></label><br>
+                        <input class="ainput green" type="text" name="f-name" id="f-name">
+                    </div>
+                    <div class="clr"></div>
+
+                    <div id="confirm" class="row2">
+                        <label for="f-name"><b>Confirmar correo electrónico</b></label><br>
+                        <input class="input green" type="text" name="f-name" id="f-name">
+                    </div>
+                </div>
+
+                <div class="clr"></div>
+            </form>
+        </div>
+    </section>
+
+    <div class="clr"></div>
+
+    <section>
+        <div class="tar">
+            <h1>Tarifas y descuentos por volumen</h1>
+
+            <table id="customers">
+                <tr>
+                    <th>Cursos contratados</th>
+                    <th>Precio por curso</th>
+                    <th>Descuento</th>
+                </tr>
+                <tr>
+                    <td>de 1 a 5 cursos contratados</td>
+                    <td>52 €</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>de 6 a 10 cursos contratados</td>
+                    <td> 42 €</td>
+                    <td> -19%</td>
+                </tr>
+            </table>
+            <br><br>
+            <p>Las empresas o entidades que quieran contratar un volumen superior de cursos deben contactar directamente
+                con atención al
+                cliente: <span class="blue">902 88 70 24 - info@preventoronline.com</span>
+            </p>
+        </div>
+    </section>
+
+    <div class="clr"></div>
+    
+    <section id="mini">
+        <div class="cur">
+            <h1>Cursos a contratar</h1>
+            <table id="customers">
+                <tr>
+                    <th>Curso:</th>
+                    <th>Nº alumnos</th>
+                    <th>Precio</th>
+                    <th>Total</th>
+                </tr>
+                <tr>
+                    <td><b>Grandes y medianas superficies-Manipulación Alimentos</b></td>
+                    <td><input id="t-inp" class="product-quantity green" value="2" type="number"></td>
+                    <td>42,00 € ( -19% Dto.)</td>
+                    <td>252 €</td>
+                </tr>
+            </table>
+            <br>
+            <br>
+            <h1>Inscripción de alumnos</h1>
+            <table id="customers">
+                <tr>
+                    <th>Nombre:</th>
+                    <th>Apellidos</th>
+                    <th>Correo electrónico </th>
+                    <th>DNI</th>
+                </tr>
+            </table>
+            <div id="myDIV">
+                <div class="divi" style="min-height:10px;border:1px solid grey;"><tr><td><input class="jin t1" type="text" placeholder="Nombre"></td><td><input class="jin t2" type="text" placeholder="Apellidos"></td><td><input id="t3" class="jin t3 " type="text" placeholder="correo electrónico"></td><td><input class="jin t4" type="text" placeholder="DNI"></td></tr></div>
+                <div class="divi" style="min-height:10px;border:1px solid grey;"><tr><td><input class="jin t1" type="text" placeholder="Nombre"></td><td><input class="jin t2" type="text" placeholder="Apellidos"></td><td><input id="t3" class="jin t3" type="text" placeholder="correo electrónico"></td><td><input class="jin t4" type="text" placeholder="DNI"></td></tr></div>    
+            </div>
+           <div id="small-field-set" style='width:100%;min-height:100px;border:1px solid grey;'>
+            </div>
+    </section>
+    <br>
+    <br>
+    <section>
+        <div class="pago">
+            <h1>Pago</h1>
+            <p>La forma de pago aceptada es mediante tarjeta de crédito. Una vez realizado el pago se concederá acceso
+                inmediato al curso</p>
+            <img src="./img/pc1.PNG" alt="">
+            <hr>
+            <br>
+            <input type="checkbox"> He leído y acepto el <span class="blue">aviso legal </span> de la web
+            <button class="btn pg-btn"> Pagar ></button>
+        </div>
+    </section>
+</body>
+
+
+
+<script>
+    $(document).ready(function () {
+        $('.product-quantity').on('change', function () {
+            $('#small-field-set').html('')
+            var number = $('.product-quantity').val();
+            for (var i = 2; i < number; i++) {
+                $('#small-field-set').append('<div class="divi" style="min-height:10px;border:1px solid grey;"><tr><td><input class="jin t1" type="text" placeholder="Nombre"></td><td><input class="jin t2" type="text" placeholder="Apellidos"></td><td><input class="jin t3" type="text" placeholder="correo electrónico"></td><td><input class="jin t4" type="text" placeholder="DNI"></td></tr>' + '</div>')
+            }
+
+        });
+    });
+
+
+
+
+
+    function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+
+
+</script>
+
+</html>

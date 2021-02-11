@@ -1,0 +1,41 @@
+.ab{
+    background-color: rgb(114, 250, 143);
+    text-align: center;
+    text-shadow: skyblue;
+    border-bottom-style: double dotted;
+    border-width: 2px;
+    border-color: rgb(159, 177, 166);
+}
+#harry{
+    margin-left: -400px;
+}
+.nav{
+    background-color: skyblue;
+}
+.item{
+    color: tomato;
+}
+body{
+    background-image: url('https://images.unsplash.com/photo-1552519507-da3b142c6e3d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2Fyc3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80');
+   
+    background-repeat: no-repeat;
+    background-position : center ;
+    /* margin-top: 500px; */
+    background-attachment: fixed; // fix krny k liye scroll krty hue
+}
+.item{
+    background-color: aqua;
+}
+.items{
+    background-color: burlywood;
+    margin-left: 200px;
+}
+.nav{
+    background-color: chartreuse;
+}
+
+
+.nav{ 
+    text-decoration: none;
+    text-decoration: line-through;
+}
