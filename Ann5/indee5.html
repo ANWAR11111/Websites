@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .image {
+     transition-property: width, height;
+   }
+   
+         .image:hover {
+           animation-delay: 2s;
+           transform-box: width: 150px;;
+   
+     width:150px;
+     height: 150px;
+   }
+   
+   
+           .image {
+       position: absolute;
+       top: 50%;
+       left: 50%;     
+       width: 100px;
+       height: 100px;
+       margin:-60px 0 0 -60px;
+       -webkit-animation:spin 4s linear infinite;
+       -moz-animation:spin 4s linear infinite;
+       animation:spin 4s linear ;
+       animation-timing-function:ease-in-out
+   }
+
+   @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+   @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+   @keyframes spin { 100% { -webkit-transform: rotate(360deg);
+     transform:rotate(1080deg); } }
+       </style>
+       <img class="image" src="blue.jpg" alt="" width="120" height="120">
+</body>
+</html>
