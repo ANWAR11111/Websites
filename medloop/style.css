@@ -1,0 +1,228 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img{
+    float: left;
+    max-width: 30%;
+    margin: 0;
+    padding: 0;
+}
+#div1 {
+    float: right;
+    width: 68%;
+    margin-top: 20px;
+    border-bottom-left-radius: 50px;
+    padding: 10px;
+    text-align: right;
+}
+.jan{
+    border-top: 3px solid white ;
+}
+.clr{
+    clear: both;
+}
+.blue{
+    background-color: rgb(28, 109, 185);
+    color: white;
+}
+.input-group{
+    width:90%;
+    max-width: 500px;
+    border-radius: 30px;
+    background: white;
+    margin: auto;
+    padding: 2px;
+
+}
+.form-control{
+    border: 2 ;
+    border-radius: 30px ;
+    margin-top: 16px;
+    box-shadow: none;
+    padding: 6px;
+
+
+}
+.input-group-text-btn{
+    max-width: 150px;
+    height: 35px;
+    background-image: linear-gradient(#00ff7e,#1f3d90);
+    border: 0 !important;
+    color: white !important;
+    padding: 0 25px !important;
+    border-radius: 30px !important;
+    box-shadow: none !important;
+
+}
+.practice{
+    font-family: Arial, Helvetica, sans-serif;
+    color:  rgb(28, 109, 185);
+    font-weight: bold;
+    /* font-size: 20px; */
+
+}
+.status{
+    color: white;
+    background-color:  rgb(28, 109, 185); 
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+.status ul {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.row2{
+    font-family: Arial, Helvetica, sans-serif;
+    color:  rgb(28, 109, 185);
+    font-weight:700;
+    box-sizing: border-box;
+    border: 2px solid rgb(28, 109, 185);
+    border-bottom-left-radius: 15px;
+    text-align: center;
+}
+.row22{
+    font-family: Arial, Helvetica, sans-serif;
+    color:  rgb(28, 109, 185);
+    font-weight: 700;
+    box-sizing: border-box;
+    text-align: center;
+    border: 2px solid rgb(28, 109, 185);
+    border-bottom-right-radius: 15px;
+    /* font-size: 20px; */
+
+}
+.row2c{
+    font-family: Arial, Helvetica, sans-serif;
+    color:  rgb(28, 109, 185);
+    font-weight: 700;
+    box-sizing: border-box;
+    text-align: center;
+    border: 2px solid rgb(28, 109, 185);
+    /* font-size: 20px; */
+
+}
+.circle{
+    font-family: Arial, Helvetica, sans-serif;
+    color:  rgb(28, 109, 185);
+    font-weight: 700;
+    box-sizing: border-box;
+    text-align: center;
+    border: 2px solid rgb(28, 109, 185);
+    /* font-size: 20px; */
+    border-radius: 15px;
+
+}
+.col2{
+    font-family: Arial, Helvetica, sans-serif;
+    color:  rgb(28, 109, 185);
+    font-weight: 700;
+    box-sizing: border-box;
+    text-align: center;
+    border: 2px solid rgb(28, 109, 185);
+   border-top-left-radius: 10px;
+   border-bottom-left-radius: 10px;
+   
+}
+.col22{
+    font-family: Arial, Helvetica, sans-serif;
+    color:  rgb(28, 109, 185);
+    font-weight: 700;
+    box-sizing: border-box;
+    text-align: center;
+    border: 2px solid rgb(28, 109, 185);
+   border-top-right-radius: 10px;
+   border-bottom-right-radius: 10px;
+   
+}
+.col3{
+    font-family: Arial, Helvetica, sans-serif;
+    color:  rgb(28, 109, 185);
+    font-weight: 700;
+    box-sizing: border-box;
+    text-align: center;
+    border: 2px solid rgb(28, 109, 185);
+    border-radius: 10px;
+}
+.colmin{
+    font-family: Arial, Helvetica, sans-serif;
+    color:  rgb(28, 109, 185);
+    font-weight: 10;
+    font-size: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid rgb(28, 109, 185);
+    
+}
+.small{
+    font-size: 10px;
+    font-weight: 100;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.last{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 700;
+    box-sizing: border-box;
+    text-align: center;
+    border: 2px solid rgb(28, 109, 185);
+    border-radius: 10px;
+    background-color: rgb(28, 109, 185);
+}
+
+/* 
+textarea {
+    background: url(/medloop/med.PNG) center center no-repeat; 
+    border: 1px solid #888; 
+  }
+ */
+
+#score{
+    color: white;
+    background-color: rgb(28, 109, 185);
+    display: inline-block;
+    font-size: 25px;
+    margin-left: 30px;
+}
+#white{
+    color: rgb(28, 109, 185);
+    background-color: white;
+    height: 150px;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 4px;
+}
+#inner{
+    display: inline-block;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+    #div1{
+        width: 45%;
+    }
+    /* .img{
+        width: 15%;
+    } */
+  }
