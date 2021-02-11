@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Styling</title>
+
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            background-color: rgb(93, 93, 231);
+        }
+        .hd{
+            text-align: center;
+            font-family: cursive;
+        }
+        .inp{
+            width: 80%;
+            margin: 10px 20px;
+
+        }
+        .input{
+            width: 100%;
+            padding: 4px;
+        }
+
+        .container{
+            max-width: 360px;
+            border: 2px solid antiquewhite;
+            /* display: block; */
+            margin: auto;
+            background-color: cornsilk;
+            margin-top: 10px;
+        }
+        .btn{
+            display: block;
+            margin: auto;
+            background-color: rgb(89, 207, 89);
+            color: white;
+            border: 2px solid wheat;
+            padding: 7px;
+            border-radius: 10px;
+            font-size: 16px;
+            width: 90%;
+        }
+        p{
+            text-align: center;
+        }
+        .sp{
+            color: turquoise;
+            margin: 4px;
+        }
+        footer{
+            text-align: center;
+            color: white;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hd">
+            <h2>Sign Up</h2>
+            <p>Here we go for Registration</p>
+        </div>
+        <form action="submit">
+            <div class="inp">
+                <label for="f-name">First Name</label><br>
+                <input class="input" type="text" name="f-name" id="f-name">
+            </div>
+            <div class="inp">
+                <label for="l-name">Last Name</label><br>
+                <input class="input" type="text" name="l-name" id="l-name">
+            </div>
+            <div class="inp">
+                <label for="email">Email</label><br>
+                <input class="input" type="text" name="email" id="email">
+            </div>
+            <div class="inp">
+                <label for="Password">Password</label><br>
+                <input class="input" type="password" name="Password" id="pass">
+            </div>
+            <div class="inp">
+                <label for="passwordd">Confirm Password</label><br>
+                <input class="input" type="password" name="passwordd" id="c-pass">
+            </div>
+        </form>
+        <button class="btn" type="submit">Submit Here</button>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, distinctio. Similique </p>
+    </div>
+    <div class="footer">
+        <footer>Already have an Account? <span class="sp"> Login Here</span></footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background: grey;
+            color: white;
+            text-align: center;
+            padding-top: 100px;
+        }
+        h1{
+            display: none;
+        }
+
+        /* SMART PHONE */
+        @media(max-width: 500px){   /* 500 ki max width tak red rahe ga us k bhr change ho ga */
+            body{
+                background: red;
+            }
+            #mob h1{
+                display: block;
+            }
+        }
+        /* TABLET */
+        @media(max-width: 768px) and (min-width: 501px){   /* 500 ki max width tak red rahe ga us k bhr change ho ga */
+            body{
+                background: blue;
+            }
+            #tablet h1{
+                display: block;
+            }
+        }
+        /* Normal */
+        @media(max-width: 1200px) and (min-width: 769px) {   /* 500 ki max width tak red rahe ga us k bhr change ho ga */
+            body{
+                background: yellow;
+            }
+            #normal h1{
+                display: block;
+            }
+        }
+        /* WIDE SCREEEN */
+        @media(min-width: 1201px)  {   /* 500 ki max width tak red rahe ga us k bhr change ho ga */
+            body{
+                background: orangered;
+            }
+            #widescreen h1{
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="widescreen"><h1>widescreen</h1></div>
+    <div id="normal"><h1>Normal</h1></div>
+    <div id="tablet"><h1>tablet</h1></div>
+    <div id="mob"><h1>Sart phone</h1></div>
+    <div id="landscape"><h1>Landscape</h1></div>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <input type="text" id="tim">
+    <button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p> -->
+<p id="text" style="display:none">1-5 SCORE <br>
+    This SCORE considered normal daytime sleepiness thus it is unlikely that you have sleep apnea at this time however you should retake this test in a year to note any changes.</p>
+<p id="text1" style="display:none"> 5-10 SCORE <br>
+     This SCORE considered higher than normal daytime sleepiness. There are several possible reasons for this score. The first being you might have mild sleep apnea or your sleep hygiene is not as ideal as it could be and you may have certain habits that keep you from getting the proper amount of sleep. A sleep test would help diagnosis the reason for this higher test score to then guide you to better sleep.</p>
+<p id="text2" style="display:none"> 11- 15 SCORE <br>
+    This SCORE considered mild to moderate excessive daytime sleepiness. It is likely that you have sleep apnea and you get a sleep test for proper diagnosis. Untreated sleep apnea will result in multiple medical conditions such as hypertension, increase weight, diabetes, cardiovascular disease and other medical ailments.</p>
+<p id="text3" style="display:none"> 16 -24 SCORE <br>
+    This SCORE is considered severe excessive daytime sleepiness. You have a high risk of injury to yourself and others. You should not wait to get a sleep test . </p>
+        <button onclick="myFunction(); goo()">Try Now</button>
+
+        <div>
+            <p id="qns" style="display:none"><h3>There was a problem with your submission.</h3><br>
+                Errors have been highlighted below.</p>
+        </div>
+<script>
+    let numberAll = 11;
+ function myFunction(){
+//   var checkBox = document.getElementById("text");
+  var text = document.getElementById("text");
+  var text1 = document.getElementById("text1");
+  var text2 = document.getElementById("text2");
+  var text3 = document.getElementById("text3");
+  if ( numberAll <= 5){
+    text.style.display = "block";
+  } else if (numberAll <= 10 ) {
+    text1.style.display = "block";
+    //  text.style.display = "none";
+  }
+  else if(numberAll <= 15){
+    text2.style.display = "block";
+  }
+  else if(numberAll <= 24){
+    text3.style.display = "block";
+  }
+  else{
+    //   break
+  }
+}
+
+
+
+
+
+
+function goo(){
+    var red = numberAll;
+    var qns = document.getElementById("qns");
+    if(red == 0){
+        qus.style.display = "block";
+    }
+    else{
+        break;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+// function myFunction() {
+//   var greeting;
+//   var tim = document.getElementById('tim')
+//   var time = tim;
+//   if (time.value < 10) {
+//     greeting = "Good morning";
+//   } else if (time.value < 20) {
+//     greeting = "Good day";
+//   } else if (time.value < 30) {
+//     greeting = "Good evening";
+//   } else {
+//     greeting = "Good night";
+//   }
+//   document.getElementById("demo").innerHTML = greeting;
+// }
+</script>
+
+</body>
+</html>
