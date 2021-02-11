@@ -1,0 +1,318 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+/* NAVBAR */
+#navbar{
+    background-color: #333 ;
+    color: white;
+    overflow: auto; 
+}
+
+
+#navbar a{
+    color: white;
+    text-decoration: none;
+}
+#navbar h1{
+    float: left;
+    padding-top: 15px;
+    margin-left: 30px;
+}
+
+/* Main */
+.head1{
+    margin: 5px 80px;
+}
+.container{
+    margin: auto;
+    max-width: 1100px;
+    padding: 8px;
+    border: 1px solid black;
+    height: 130px;
+}
+
+#box1 {
+    width: 25%;
+    float: left;
+}
+#box1 img{
+    width: 110px;
+}
+
+
+#box2{
+    width: 74%;
+    float: right;
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 0;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+  }
+
+  .clr{
+      clear: both;
+  }
+
+
+
+
+  /* FORM */
+  .contain{
+    max-width: 900px;
+    padding: 20px;
+    border: 2px solid antiquewhite;
+    /* display: block; */
+    margin: auto;
+    background-color: cornsilk;
+    margin-top: 15px;
+    height: 400px;
+}
+.lf{
+    float: left;
+    max-width: 40%;
+    margin-top: 20px;
+
+}
+  
+.rg{
+    float: right;
+    max-width: 20%;
+    margin-right: 25px;
+    margin-top: 20px;
+    
+
+}
+.f-line1{
+    width: 110px;
+}
+.row2{
+    max-width: 40%;
+    float: left;    
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #5e6b5f;
+    color: white;
+  }
+
+
+  #custom {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #custom td, #custom th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  
+  #custom tr:hover {background-color: #ddd;}
+  
+  #custom th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #5e6b5f;
+    color: white;
+  }
+
+.blue{
+    color: blue;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: rgb(53, 207, 53);
+    float: right;
+    color: white;
+    font-size: large;
+}
+.btn:hover{
+    background-color: #333;
+}
+.contain2{
+    max-width: 900px;
+    margin: auto;
+}
+.box21{
+    width: 20%;
+    float: left;
+}
+.box22{
+    width: 80%;
+    float: right;
+}
+#check{
+    font-size: 100px;
+    color: green;
+}
+.bt{
+    background-color: grey;
+    color: white;
+    float: right;
+    margin-top: 10px;
+}
+.sp{
+    color: grey;
+    margin: 4px;
+}
+.price{
+    float: right;    
+}
+#price{
+    font-size: xx-large;
+}
+.bt2{
+    width: 100px;
+    height: 50px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: rgb(53, 207, 53);
+    float: right;
+    color: white;
+    font-size: large;
+    margin: 10px;
+}
+.bt2:hover{
+    background-color: #333;
+}
+.back-btn{
+    width: 140px;
+    height: 50px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: rgb(107, 158, 224);
+    float: right;
+    color: white;
+    font-size: large;
+    margin: 10px;
+}
+.back-btn:hover{
+    background-color: #333;
+}
+#cross{
+    font-size: 100px;
+    color: red;
+}
+.jin{
+    margin: 3px;
+    /* margin-right: 4px; */
+    width: 200px;
+}
+/* .divi{
+    margin-left: 10px;
+} */
+ 
+.gon{
+    margin-right: 20px;
+}
+.t1{
+    width: 180px;
+}
+.t2{
+    width: 195px;
+}
+.t3{
+    width: 350px;
+}
+.t4{
+    width: 94px;
+}
+
+
+
+@media (min-width:601px) and (max-width: 1100px){
+    .t1{
+        width: 150px;
+    }
+    .t2{
+        width: 170px;
+    }
+    .t3{
+        width: 280px;
+    }
+    .t4{
+        width: 70px;
+    }
+    .contain{
+        background-color: cornsilk;
+        height: 600px;
+    }
+        
+}
+
+
+
+
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      height: 70px;
+    }
+    .container{
+        border: none;
+    }
+    #in{
+        width: 100px;
+    }
+    
+    .t1{
+        width: 90px;
+    }
+    .t2{
+        width: 90px;
+    }
+    .t3{
+        width: 150px;
+    }
+    .t4{
+        width: 60px;
+    }
+    .contain{
+        background-color: cornsilk;
+        height: 600px;
+    }
+    
+    
+  }
+
+/* 
+  @media (max-width: 480px){
+      .t4{
+          width: 50px;
+      }
+  } */

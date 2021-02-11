@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- <h1>RFC Consulatr</h1> -->
+    <!-- <img id="im" src="../0000/images/reely.png" alt=""> -->
+    <img src="../0000/images/reely.png" alt="Paris" class="center">
+
+    <div class="reg">
+        <form id="reg" action="..php"></form>
+        <h1>Obtenga su RFC</h1><br><br>
+        <label for="">Primer Nombre</label><br>
+        <input id="name" type="text" name="name"  placeholder="name" oninput="this.value = this.value.toUpperCase()" />
+        <br><br>
+        <label for="">Apellido Paterno</label><br>
+        <input id="name1" type="text" name="name"  placeholder="name" oninput="this.value = this.value.toUpperCase()" />
+        <br><br>
+        <label for="">Apellido Materno</label><br>
+        <input id="name2" type="text" name="name"  placeholder="name" oninput="this.value = this.value.toUpperCase()" />
+        <br><br>
+        <!-- <label for="">First Name</label><br>
+        <input id="name" type="text" name="name"  placeholder="name">
+        <br><br> -->
+        <label for="">Fecha de nacimiento</label><br>
+        <input type="date" id="myDate" value="1970-01-01" name="date" >
+        <br><br>
+        <!-- <input  type="checkbox" > <span id="jam"> I Agree all the terms & conditions</span><br><br> -->
+        <button type="submit" onclick="myFunction()" id="sub">Calcular…</button>
+        <p id="demo"></p>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        const test = ()=>{
+            const val =  makeName() + document.querySelector("#name2").value[0] + document.querySelector("#name").value[0]  
+         return(val);
+        }
+    const makeName = () => {
+    const nameArr = document.querySelector("#name1").value.split("");
+    // const fin = nameArr[0] + nameArr.find(i=>["A","E","I","O","U"].includes(i)) || '';
+    const fin = nameArr[0] + (nameArr.find(i=>["a","e","i","o","u","A","E","I","O","U"].includes(i)) || nameArr[1]);
+    return fin;
+    }
+    
+    
+    
+    function myFunction() {
+        var x = document.getElementById("myDate").value.slice(2);
+        document.getElementById("demo").innerHTML = test() + x.replaceAll("-",'')+"XXX"; 
+        
+      }
+    
+    </script>
+
+</body>
+</html>

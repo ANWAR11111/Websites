@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../form/images/spain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    background-attachment: fixed;
+    background-size: 100% 900px; 
+}
+/* #im{
+    align-items: center;
+    display: inline-block;
+    justify-content: center;
+} */
+h1{
+    color: white;
+    text-align: center;
+    font-style: italic;
+    padding: 20px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+.reg{
+    width: 65% !important; 
+    height: 100%;
+    margin: auto;
+    text-align: center;
+}
+h2{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+label{
+    color: white;
+    font-style: italic;
+    font-size: 20px;
+}
+#jam{
+    color: white;
+    font-style: italic;
+    font-size: 20px;
+    
+}
+.reg{
+    width: 30%;
+    margin: auto;
+    background-color: rgb(0, 0, 0,0.4);
+    padding: 10px;
+}
+#reg{
+    width: 60%;
+    margin: auto;
+}
+#name , #name1 , #name2 , #myDate{
+    width: 300px;
+    outline: 0;
+    padding: 5px;
+    border: 3px solid #9fabb6;
+    border-radius: 3px;
+}
+
+
+#sub{
+    width: 300px;
+    outline: 0;
+    padding: 5px;
+    border: 3px solid #9fabb6;
+    color: white;
+    font-size: 18px;
+    font-style: italic;
+    background-color: #487948;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+
+
+p{
+    color: rgb(47, 255, 245);
+    padding: auto;
+    margin-top: 20px ;
+    font-weight: bold;
+    font-size: 5vh;
+
+}

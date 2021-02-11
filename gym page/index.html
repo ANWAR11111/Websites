@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="menu">
+        <ul>
+            <li><a href="#" onclick="toggleMenu()";>Home</a></li>
+            <li><a href="#" onclick="toggleMenu()">About</a></li>
+            <li><a href="#" onclick="toggleMenu()">Training</a></li>
+            <li><a href="#" onclick="toggleMenu()">Team</a></li>
+            <li><a href="#" onclick="toggleMenu()">Contact Us</a></li>
+        </ul>
+    </div>
+    <section class="banner">
+        <header>
+            <h2 class="logo ">Your Logo</h2>
+            <div class="toggle" onclick="toggleMenu();"></div>
+        </header>
+        <video src="https://player.vimeo.com/external/433623502.sd.mp4?s=bbafca1d196e20b82d0e06569b41ef1fd62d0b99&profile_id=139&oauth2_token_id=57447761" muted loop autoplay></video>
+        <div class="overlay"></div>
+        <div class="text">
+            <h2>Be Stronger</h2>
+            <h3>Never give up</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, tempora rerum sequi in consequuntur dolor iusto quos ipsa cum beatae incidunt officia et labore quis accusantium nobis maiores asperiores laborum?</p>
+            <a href="#">Join us</a>
+        </div>
+        <div>
+            <ul class="sci">
+                <li><a href="#"><img src="images/facebook.png" alt=""></a></li>
+                <li><a href="#"><img src="images/twitter.png" alt=""></a></li>
+                <li><a href="#"><img src="images/instagram.png" alt=""></a></li>
+            </ul>
+        </div>
+    </section>
+    <script type="text/javascript">
+    function toggleMenu(){
+        var menuToggle = document.querySelector('.toggle');
+        var banner = document.querySelector('.banner');
+        menuToggle.classList.toggle('active');
+        banner.classList.toggle('active');
+    }
+    </script>
+</body>
+</html>
